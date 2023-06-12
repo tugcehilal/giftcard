@@ -1,10 +1,10 @@
 package com.example.giftcard.query;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import javax.persistence.Id;
-import javax.persistence.Entity;
 import java.util.UUID;
 
 @Entity

@@ -20,7 +20,7 @@ import java.util.UUID;
 @Component
 @RequiredArgsConstructor//inject commandsGateway
 @Slf4j
-//@Profile("client")
+@Profile("client")
 public class TestRunner implements CommandLineRunner {
 
     private final CommandGateway commandGateway;

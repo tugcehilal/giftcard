@@ -21,7 +21,7 @@ import static org.axonframework.modelling.command.AggregateLifecycle.apply;
 @NoArgsConstructor//needed
 @Slf4j
 @Component
-//@Profile("command")
+@Profile("command")
 public class Giftcard {
     @AggregateIdentifier
     private UUID id;
